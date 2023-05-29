@@ -32,7 +32,7 @@ function generateBill(){
          }
         
          
-         grandTotal.innerHTML=`<td contenteditable="false">Total Price</td>
+         grandTotal.innerHTML=`<td id="ans" contenteditable="false">Total Price</td>
         <td contenteditable="false"  data-ns-test=grandTotal>${sum}</td>`
          
          sum=0;
